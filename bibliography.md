@@ -25,7 +25,7 @@ The media studies and digital humanities communities have discussed programming 
 * Manovich, Lev. *Software Takes Command*. MIT Press (Software Studies Series), 2013.
 * Marino, Mark C. "Critical Code Studies," *Electronic Book Review*. 4 December 2006. [http://www.electronicbookreview.com/thread/electropoetics/codology](http://www.electronicbookreview.com/thread/electropoetics/codology)
 * McGann, Jerome. "Marking Texts of Many Dimensions." *A Companion to Digital Humanities*, ed. Susan Schreibman, Ray Siemens, John Unsworth. Oxford: Blackwell, 2004. [http://www.digitalhumanities.org/companion/](http://www.digitalhumanities.org/companion/)
-* Nowviskie, Bethany. "Don’t Circle the Wagons." 4 March 2012. [http://nowviskie.org/2012/dont- circle-the-wagons/](http://nowviskie.org/2012/dont- circle-the-wagons/)
+* Nowviskie, Bethany. "Don’t Circle the Wagons." 4 March 2012. [http://nowviskie.org/2012/dont- circle-the-wagons/](http://nowviskie.org/2012/dont-circle-the-wagons/)
 * Oram, Andy, and Greg Wilson. *Beautiful Code: Leading Programmers Explain How They Think* (Theory in Practice. O’Reilly Media, Inc., 2007.
 * Wardrip-Fruin, Noah. *Expressive processing: digital fictions, computer games, and software studies*. Cambridge, Mass.: MIT Press, 2009.
 

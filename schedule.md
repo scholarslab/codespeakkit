@@ -8,16 +8,17 @@ comprised of a number of un-conference-style break-out sessions.
 
 ### Welcome
 
-At the beginning of the first day, the welcome sets the tone and lays the
-ground rules. It establishes an atmosphere of openness, candor, and respect.
+At the beginning of the first day, the welcome message sets the tone and lays
+the ground rules. It establishes an atmosphere of openness, candor, and
+respect.
 
 The primary ground rule was that all discussions took place under the [Chatham
 House Rule][chatham]: the information is open, but participants should not be
-identified. This applied to all media, social as well as traditional.
+identified. This applied to all media, new media, social media, as well as
+traditional media.
 
-That decision was the outcome of discussion. A number of "privacy settings"
-were brought up, but the group reached consensus on using the Chatham House
-Rule.
+That decision was the outcome of discussion. A number of options were brought
+up, but the group reached consensus on using the Chatham House Rule.
 
 Being able to discuss this topic and reach a consensus helped to create an open
 arena for the discussion. Participants could speak freely without fearing
@@ -37,10 +38,10 @@ and discussion related to the activities and topics for the next day.
 
 ## Day Two
 
-The second day was more "hands-on" in the broadest sense. There were a few more
-hacking sessions; however, most of the sessions' work involved discussion.
-These sessions pushed hard on their respective topics and worked toward
-increasing understanding, if not always reaching consensus or closure.
+The second day was more "hands-on" in the broadest sense. There were a few
+hacking sessions; however, most of the sessions centered around discussion.
+These pushed hard on their respective topics and worked toward increasing
+understanding, if not always achieving consensus or closure.
 
 [chatham]: http://www.chathamhouse.org/about/chatham-house-rule
 

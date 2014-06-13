@@ -1,10 +1,8 @@
 # Logistics
 
-We won't even attempt to cover talk about event planning here. Just remember
-that you're dealing with a technically sophisticated audience, so if they don't
-have good wifi, they'll scream like psychotic banshees. Lack of coffee will be
-just as bad, albeit less energetic, more on the lines of lethargic golems.
+We won't attempt to cover event planning here. Coffee and wifi are not
+optional, but there is considerable flexibility on the rest.
 
-Finally, and seriously, the break-out sessions were where people connected and
-where the most important conversations happened. Make sure there will be enough
-space for several groups of varying sizes.
+Remember that the break-out sessions were where people connected and where the
+most important conversations happened. Make sure there will be enough space for
+several groups of varying sizes.

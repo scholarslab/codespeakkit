@@ -3,20 +3,20 @@
 Probably the most important aspect of conducting a Speaking in Code is the
 participants. We put some thought into what kind of discussions and discourses
 we wanted to provide a platform for, to encourage, and to amplify. Our
-statement, "You are Welcome Here," captures our hopes on this.
+statement, "You are Welcome Here," embodies our thoughts on this.
 
-## You are Welcome Here
+## "You are Welcome Here"
 
 This statement was important for several reasons. First, it expressed the kind
 of discussion that we wanted to take place. It set the tone for all of the
-participants, including the white males.
+participants, both minorities and cisgender white males.
 
 But most importantly, it went beyond an assertion that this would be a safe
 space. More, it was an invitation. We wanted to make clear that we were
 actively looking for voices that are marginalized in other software development
 settings. We wanted to listen and to hear what they have to say. 
 
-This invitation is so important that we'll reproduce it here:
+This invitation is important enough that we'll reproduce it here:
 
 > This is a small planning and problem-scoping meeting, meant to provide an
 > opportunity for advanced software developers to address shared issues in DH
@@ -29,10 +29,10 @@ This invitation is so important that we'll reproduce it here:
 
 # Speakers
 
-The other important consideration is the speakers to invite. They are in many
-ways the immediate provocation for the summit. Their presentations start the
-discussion, which the participants take over. The topics begin, but don't
-dominate, and the discussion can move on from there.
+The other important consideration is the speakers to invite. They are the
+immediate provocation for the summit. Their presentations start the discussion,
+which the participants take over. The topics begin, but don't dominate, and the
+conversation can move outward from there.
 
 # What is "productive"
 

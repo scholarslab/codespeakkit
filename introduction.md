@@ -1,6 +1,8 @@
 
 # Introduction
 
+## What was Speaking in Code?
+
 [Speaking in Code][codespeak] was an [NEH][neh]-funded symposium and summit. On
 November 4–5, 2013, thirty-two software developers and practitioners active in
 the digital humanities met at the [Scholars' Lab][slab] in the [University of
@@ -11,6 +13,9 @@ reflect on the context of our work, discuss the transmission of tacit knowledge 
 
 In the end, in part due to our success in bringing together an unusually diverse group of developers and participants' shared sense of the specialness of that opportunity, the focus of the meeting diverged from code critique and conversation about tacit knowledge transmission in the act of software development. Participants instead spent the most of the
 two days identifying and discussing ways to dismantle social barriers, both explicit and implicit, spoken and tacit -- barriers to access to digital humanities communities and conversations, and internal barriers dividing the DH community. These might range from  knowledge acquisition required to perform technical work, to the way the field's structures of review and reward primarily address the needs of traditionally-employed scholars rather than all members of digital humanities teams. Participants also examined the working conditions, social and power structures, and (lack of) diversity found in technical environments in general and in DH work in particular.
+
+
+## What happens next?
 
 Discussions at [Speaking in Code][codespeak] were challenging, thought-provoking, open, heartfelt, and compelling -- and we want to share. We put together this kit to amplify voices, to continue conversations, and to enable more DH and digital library software developers and members of our larger digital humanities community to join in.
 

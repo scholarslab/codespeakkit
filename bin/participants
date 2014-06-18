@@ -1,0 +1,99 @@
+#! /usr/bin/env ruby
+
+require 'csv'
+require 'optparse'
+
+class String
+  def colorize(color_code)
+     "\e[#{color_code}m#{self}\e[0m"
+  end
+
+  def red
+    colorize(31)
+  end
+
+  def green
+    colorize(32)
+  end
+
+  def yellow
+    colorize(33)
+  end
+
+end
+
+class Processor
+
+  OUTPUT_TYPES = %w{copy terminal file}
+
+  def self.slugify(string)
+    string.downcase.strip.gsub(/[\W]+/,"-")
+  end
+
+  def self.decorate(row)
+    html = <<-SNIP
+    <li id="#{slugify(row['name'])}">
+      <img src="#{row['avatar']}">
+      <h2>#{row['name']}</h2>
+      <p class="byline">#{row['byline']}</p>
+      <p class="twitter-handle">#{row['twitter']}</p>
+      <p class="bio">#{row['biography']}</p>
+    </li>
+    SNIP
+  end
+
+  def self.output(input)
+    str = input.to_s
+    IO.popen('pbcopy', 'w') { |f| f << str }
+    str
+  end
+
+  def self.generate_html(file)
+    html = ""
+    @csv = CSV.read(file, headers: true).each do |row|
+      html << decorate(row)
+    end
+
+    output(html)
+  end
+
+  def self.parse(args)
+    @options = {}
+
+    opt_parser = OptionParser.new do |opts|
+      opts.banner = "Creates HTML markup for participants from CSV file.".yellow
+      opts.banner += "\n\nUsage: #{File.basename(__FILE__)} [options] filename.csv".green
+      opts.separator ""
+      opts.separator "Specific options:"
+
+      #opts.on('-o', '--output [output_file]', "Output file") do |output|
+        #@options.output = output
+      #end
+
+      opts.on('-v', '--verbose', "Verbose mode") do |verbose|
+        @options.verbose = true
+      end
+
+      opts.on_tail("-h", "--help", "Show this message") do |help|
+        puts opts
+        exit
+      end
+    end
+
+    opt_parser.parse!(args)
+
+    if( ARGV.empty? || File.file?(ARGV[0]) == false)
+      puts "\nD'oh! You need to specify a valid file to process\n".red
+      puts opt_parser
+      exit
+    end
+
+    generate_html(ARGV[0])
+
+  end
+
+end
+
+process = Processor.parse(ARGV)
+
+puts process

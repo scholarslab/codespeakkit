@@ -2,6 +2,7 @@
 
 require 'csv'
 require 'optparse'
+require 'ostruct'
 
 class String
   def colorize(color_code)
@@ -31,7 +32,7 @@ class Processor
   end
 
   def self.decorate(row)
-    html = <<-SNIP
+    <<-SNIP
     <li id="#{slugify(row['name'])}">
       <img src="#{row['avatar']}">
       <h2>#{row['name']}</h2>
@@ -51,6 +52,7 @@ class Processor
   def self.generate_html(file)
     html = ""
     @csv = CSV.read(file, headers: true).each do |row|
+      puts "Adding #{row['name']}...".green if @options.verbose
       html << decorate(row)
     end
 
@@ -58,17 +60,14 @@ class Processor
   end
 
   def self.parse(args)
-    @options = {}
+    @options = OpenStruct.new
+    @options.verbose = false
 
     opt_parser = OptionParser.new do |opts|
       opts.banner = "Creates HTML markup for participants from CSV file.".yellow
       opts.banner += "\n\nUsage: #{File.basename(__FILE__)} [options] filename.csv".green
       opts.separator ""
       opts.separator "Specific options:"
-
-      #opts.on('-o', '--output [output_file]', "Output file") do |output|
-        #@options.output = output
-      #end
 
       opts.on('-v', '--verbose', "Verbose mode") do |verbose|
         @options.verbose = true
@@ -80,7 +79,12 @@ class Processor
       end
     end
 
-    opt_parser.parse!(args)
+    begin
+      opt_parser.parse!(args)
+    rescue OptionParser::InvalidOption => error
+      puts "Hmmm...I don't know about #{error}, gonna ignore it.".red
+    end
+
 
     if( ARGV.empty? || File.file?(ARGV[0]) == false)
       puts "\nD'oh! You need to specify a valid file to process\n".red
@@ -97,3 +101,4 @@ end
 process = Processor.parse(ARGV)
 
 puts process
+

@@ -34,7 +34,7 @@ $ git checkout gh-pages
 $ bundle install
 $ cat "custom.domain.org" >> CNAME
 $ git add CNAME
-$ git commit -m "Add custome domain"
+$ git commit -m "Add custom domain"
 $ git push origin gh-pages
 ```
 

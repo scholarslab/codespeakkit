@@ -1,8 +1,19 @@
 # Codespeak Kit
 
-This is work-in-progress by the [Scholars' Lab][slab] at [UVa Library][uva-lib], toward a "starter kit" for holding events and continuing conversations under the banner of [Speaking in Code][codespeak]. The original event was an [NEH][neh]-funded summit for digital humanities software developers held at the [University of Virginia][uva] in November of 2013.
+This is work-in-progress by the [Scholars' Lab][slab] at [UVa
+Library][uva-lib], toward a "starter kit" for holding events and
+continuing conversations under the banner of [Speaking in
+Code][codespeak]. The original event was an [NEH][neh]-funded summit for
+digital humanities software developers held at the [University of
+Virginia][uva] in November of 2013.
 
 ## Instructions
+
+The Codespeak Kit is a [Jekyll][jekyll] application that can run in
+[Github Pages][pages]. There are a couple ways to get a copy of this
+up-and-running, so pick the one that fits your needs.
+
+### Fork It
 
 1. Create a [fork][fork] of this repository.
 2. [Clone][clone] your fork of the repository.
@@ -27,6 +38,7 @@ $ git commit -m "Add custome domain"
 $ git push origin gh-pages
 ```
 
+### Yeoman Scaffold
 If you have [node][node] installed, you can use the [yeoman][yeoman] as
 well. Simply install the `codespeak` generator from `npm` and then run
 the generator.
@@ -59,4 +71,5 @@ create a new repository and push to the `gh-pages` branch.
 [jekyll]: http://jekyllrb.com/
 [node]: http://nodejs.org/
 [yeoman]: http://yeoman.io/
+[pages]: https://pages.github.com/
 [gh-pages]: https://help.github.com/articles/creating-project-pages-manually

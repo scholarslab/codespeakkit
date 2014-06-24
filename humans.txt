@@ -1,0 +1,25 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Scott Bailey @csbailey5t
+    Jeremy Boggs @clioweb
+    Wayne Graham @waynegraham
+    Bethany Nowviskie @nowviskie
+    Eric Rochester @erochest
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    Normalize.css, Respond, Modernizr
+    Jekyll, Susy, Sass
+    Git, Github
+
+
+  ______          __             __                       _   _____            __
+.' ____ \        [  |           [  |                     | | |_   _|          [  |
+| (___ \_| .---.  | |--.   .--.  | |  ,--.   _ .--.  .--.\_|   | |      ,--.   | |.--.
+ _.____`. / /'`\] | .-. |/ .'`\ \| | `'_\ : [ `/'`\]( (`\]     | |   _ `'_\ :  | '/'`\ \
+| \____) || \__.  | | | || \__. || | // | |, | |     `'.'.    _| |__/ |// | |, |  \__/ |
+ \______.''.___.'[___]|__]'.__.'[___]\'-;__/[___]   [\__) )  |________|\'-;__/[__;.__.'

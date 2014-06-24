@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="en" class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+        <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="{{ site.url }}/stylesheets/style.css">
+        <script src="{{ site.url }}/javascripts/modernizr.min.js"></script>
+        <script src="{{ site.url }}/javascdripts/respond.min.js"></script>
+        <link type="text/plain" rel="author" href="{{ site.url }}/humans.txt" />
+    </head>
+    <body>
+    <a href="#main" class="skiplink">Skip to main content</a>
+        <header role="banner" id="banner">
+            <img src="{{ site.url}}/images/sic-logo.png" alt="">
+            <h1><a href="{{ site.url }}">{{ site.title }}</a></h1>
+        </header>
+        <main id="main">
+        {{ content }}
+        </main>
+        <footer role="contentinfo" id="contentinfo">
+
+        </footer>
+    </body>
+</html>

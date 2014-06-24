@@ -32,10 +32,6 @@ $ git clone git@github.com:scholarslab/codespeakkit.git
 $ cd codespeakkit
 $ git checkout gh-pages
 $ bundle install
-$ cat "custom.domain.org" >> CNAME
-$ git add CNAME
-$ git commit -m "Add custom domain"
-$ git push origin gh-pages
 ```
 
 ### Yeoman Scaffold
@@ -52,6 +48,26 @@ $ grunt
 The scaffolding will take care of installing dependencies and setting up
 a development environment. When you're ready to deploy to github, simply
 create a new repository and push to the `gh-pages` branch.
+
+### Publishing
+
+Once you have updated the site the way you want it, you can push this to
+the special [gh-pages][pages] branch (assuming you have a Github remote
+configured).
+
+If you have a custom domain for your #codespeak, create a file in your
+project directory named `CNAME` that contains the domain name you
+registered and push it to your `gh-pages` branch.
+
+```shell
+$ cat "custom.domain.org" >> CNAME
+$ git add CNAME
+$ git commit -m "Add custom domain"
+$ git push origin gh-pages
+```
+In your DNS settings, create a CNAME entry that points to the github
+pages. For more detailed instructions, see [Tips for configuring a CNAME
+record with your DNS provider][gh-pages-dns].
 
 ## Additional Materials
 * [Planning](planning.md)
@@ -73,3 +89,4 @@ create a new repository and push to the `gh-pages` branch.
 [yeoman]: http://yeoman.io/
 [pages]: https://pages.github.com/
 [gh-pages]: https://help.github.com/articles/creating-project-pages-manually
+[gh-pages-dns]: https://help.github.com/articles/tips-for-configuring-a-cname-record-with-your-dns-provider

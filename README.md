@@ -21,8 +21,6 @@ up-and-running, so pick the one that fits your needs.
 3. Check out the `gh-pages` branch of the repository.
 4. Make modifications to the site as needed. The main file is
    `index.html`.
-5. If you have a custom domain, add a new file named `CNAME` with the
-   domain.
 5. Push the `gh-pages` branch to your Github remote.
 
 ```shell

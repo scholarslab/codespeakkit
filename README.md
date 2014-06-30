@@ -82,7 +82,7 @@ project directory named `CNAME` that contains the domain name you
 registered and push it to your `gh-pages` branch.
 
 ```shell
-$ cat "custom.domain.org" >> CNAME
+$ echo "custom.domain.org" >> CNAME
 $ git add CNAME
 $ git commit -m "Add custom domain"
 $ git push origin gh-pages

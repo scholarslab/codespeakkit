@@ -8,7 +8,7 @@ Solicit enough information from participants to allow you to create a public lis
 
 Be clear in the material you distribute ahead of time which meals (if any) will be covered and which ones participants will be responsible for purchasing.
 
-Be sure to make attendees aware of the location of restrooms -- including unisex facilities, if possible -- and private spaces for nursing mothers.
+Be sure to make attendees aware of the location of restrooms — including unisex facilities, if possible — and private spaces for nursing mothers.
 
 Remember that the break-out sessions are where people connect and where the
 most important conversations happen. Make sure there will be enough space for

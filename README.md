@@ -21,7 +21,7 @@ specialness of that opportunity, the focus of the meeting diverged from
 code critique and conversation about tacit knowledge transmission in the
 act of software development. Participants instead spent the most of the
 two days identifying and discussing ways to dismantle social barriers,
-both explicit and implicit, spoken and tacit -- barriers to access to
+both explicit and implicit, spoken and tacit — barriers to access to
 digital humanities communities and conversations, and internal barriers
 dividing the DH community. These might range from  knowledge acquisition
 required to perform technical work, to the way the field's structures of
@@ -94,7 +94,7 @@ record with your DNS provider][gh-pages-dns].
 ## What happens next?
 
 Discussions at [Speaking in Code][codespeak] were challenging,
-thought-provoking, open, heartfelt, and compelling -- and we want to
+thought-provoking, open, heartfelt, and compelling — and we want to
 share. We put together this kit to amplify voices, to continue
 conversations, and to enable more DH and digital library software
 developers and members of our larger digital humanities community to
@@ -103,7 +103,7 @@ join in.
 This kit is your key to hosting conversations of your own.
 
 But there are no step-by-step instructions. In fact, your Speaking in
-Code will -- and should! -- look different from the one held in November
+Code will — and should! — look different from the one held in November
 2013. This is a loose set of suggestions, priorities, and practices to
       encourage the type of discussion that the Scholars' Lab attendees
 found transformative. Nevertheless it will be *your* Speaking in Code.
@@ -124,7 +124,7 @@ committed to continuing the discussion online:
 * [#speakingincode][irc] (IRC)
 
 Use the hashtag on Twitter or join the Speaking in Code IRC channel to
-bring new voices into the mix -- and to call on the experience and
+bring new voices into the mix — and to call on the experience and
 goodwill of participants and organizers from the inaugural event.
 
 

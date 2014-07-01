@@ -87,6 +87,7 @@ $ git add CNAME
 $ git commit -m "Add custom domain"
 $ git push origin gh-pages
 ```
+
 In your DNS settings, create a CNAME entry that points to the github
 pages. For more detailed instructions, see [Tips for configuring a CNAME
 record with your DNS provider][gh-pages-dns].
@@ -105,7 +106,7 @@ This kit is your key to hosting conversations of your own.
 But there are no step-by-step instructions. In fact, your Speaking in
 Code will — and should! — look different from the one held in November
 2013. This is a loose set of suggestions, priorities, and practices to
-      encourage the type of discussion that the Scholars' Lab attendees
+encourage the type of discussion that the Scholars' Lab attendees
 found transformative. Nevertheless it will be *your* Speaking in Code.
 It will grow out of your context and address the concerns of your
 participants.
@@ -127,8 +128,8 @@ Use the hashtag on Twitter or join the Speaking in Code IRC channel to
 bring new voices into the mix — and to call on the experience and
 goodwill of participants and organizers from the inaugural event.
 
-
 ## Additional Materials
+
 * [Planning](planning.md)
 * [Logistics](logistics.md)
 * [Schedule](schedule.md)

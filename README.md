@@ -31,6 +31,13 @@ Participants also examined the working conditions, social and power
 structures, and (lack of) diversity found in technical environments in
 general and in DH work in particular.
 
+## Additional Materials
+
+* [Planning](planning.md)
+* [Logistics](logistics.md)
+* [Schedule](schedule.md)
+* [Bibliography](bibliography.md)
+
 ## Instructions
 
 The Codespeak Kit is a [Jekyll][jekyll] application that can run in

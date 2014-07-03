@@ -69,10 +69,17 @@ well. Simply install the `codespeak` generator from `npm` and then run
 the generator.
 
 ```shell
-$ npm install yo generator-codespeak
+$ npm install -g yo generator-codespeak
 $ yo codespeak
-$ grunt
 ```
+
+Once installed, you can preview changes to the content with the built in
+web server that ships with `jekyll`.
+
+```shell
+$ jekyll serve --watch
+```
+
 
 The scaffolding will take care of installing dependencies and setting up
 a development environment. When you're ready to deploy to github, simply

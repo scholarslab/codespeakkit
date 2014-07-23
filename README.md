@@ -155,7 +155,7 @@ goodwill of participants and organizers from the inaugural event.
 [uva]: http://www.virginia.edu/
 [uva-lib]: http://www.library.virginia.edu/
 [twitter]: https://twitter.com/search?q=%23codespeak
-[irc]: http://webchat.freenode.net/?channels=%23codespeak&uio=d4
+[irc]: http://webchat.freenode.net/?channels=%23speakingincode&uio=d4
 [fork]: https://help.github.com/articles/fork-a-repo#step-1-fork-the-spoon-knife-repository
 [clone]: https://help.github.com/articles/fork-a-repo#step-2-clone-your-fork
 [jekyll]: http://jekyllrb.com/
